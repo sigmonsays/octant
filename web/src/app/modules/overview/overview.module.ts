@@ -54,7 +54,7 @@ import { ButtonGroupComponent } from './components/button-group/button-group.com
 import { AlertComponent } from './components/alert/alert.component';
 import { ContentFilterComponent } from './components/content-filter/content-filter.component';
 import { NgTerminalModule } from 'ng-terminal';
-import { TerminalComponent } from 'src/app/components/terminal/terminal.component';
+import { TerminalComponent } from 'src/app/modules/overview/components/terminal/terminal.component';
 
 export function hljsLanguages() {
   return [{ name: 'yaml', func: yaml }, { name: 'json', func: json }];
